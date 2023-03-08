@@ -1,1 +1,23 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-image: url("https://i.imgur.com/bNcUaGk.jpg");
+  background-size: 100%;
+}
+
+#excuseBody {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#excuse {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.cardwidth {
+  width: 900px;
+}
